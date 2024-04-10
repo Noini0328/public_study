@@ -1,0 +1,24 @@
+body {
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+#message {
+  display: flex;
+  flex-direction: row; /* 要素を横に配置 */
+  align-items: center; /* 要素を中央に揃える */
+}
+
+.info {
+  margin-right: 20px; /* 要素間の間隔を調整 */
+}
+
+#message img {
+  max-width: 100%; /* 画像の幅を最大にする */
+  height: auto; /* アスペクト比を保持したまま高さを自動調整 */
+}
+
+.content {
+  margin-top: 20px; /* メインコンテンツと作者/画像の間に余白を追加 */
+}
