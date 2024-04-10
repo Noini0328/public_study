@@ -1,4 +1,4 @@
-
+console.log('**** v20240410 ****');
 console.log('** content.js');
 console.log("** in URL:   " + window.location.href);
 var count_popup = 0;
@@ -69,7 +69,7 @@ window.addEventListener("load", function () {
     }
 
 
-  }, 3000);
+  }, 500);
 
 
 
